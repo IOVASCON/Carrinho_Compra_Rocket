@@ -1,0 +1,38 @@
+# Ignorar arquivos gerados pela compilação do Rust
+/target/
+**/*.rs.bk
+
+# Ignorar arquivos e pastas do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos temporários de editores
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# Ignorar outras pastas temporárias ou arquivos de build
+/build/
+dist/
+node_modules/
+
+# Não ignorar arquivos PNG (para permitir o upload das imagens ao GitHub)
+#!img/*.png
+!*.png
+
+# Ignorar outros arquivos de imagem (opcional)
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+
+# Ignorar arquivos binários
+*.exe
+*.dll
+*.so
+
+# Ignorar arquivos de configuração locais
+*.env
+config.toml
